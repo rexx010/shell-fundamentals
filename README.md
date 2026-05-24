@@ -31,17 +31,17 @@ This is the view of the main menu
 ---
 
 ### View
-This screenshot shows the number of task that is in the file by pressing 1. A total number of four tasks are in the file
+This screenshot shows the number of task that is in the file by pressing 1. A total number of four tasks are in the file and they are numbered with the use of "nl".
 ![View Tasks](images/view.png)
 ---
 
 ### Add
-Upon every successful addition to the file task, a message displays "task added". this is done by pressing 2 from the main menu
+Upon every successful addition to the file task, a message displays "task added". this is done by pressing 2 from the main menu, then "read -p" was used to prompt the user and "echo" was used to write and append the prompt to the file.
 ![Add Task](images/add.png)
 ---
 
 ### Delete
-To delete a task, you have to enter the number of the task which is being displayed with the help of nl(number line)
+To delete a task, you have to enter the number of the task which is being displayed with the help of "nl(number line)" and the deleting was done with "sed -i"
 ![Delete Task](images/delete.png)
 ---
 
